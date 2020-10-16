@@ -1,0 +1,5 @@
+<view class="home_cate">
+<navigator wx:for="{{catesList}}" wx:key="name" class="home_item">
+<image  src="{{item.image_src}}" mode="widthFix"></image>
+</navigator>
+</view>

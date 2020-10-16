@@ -1,0 +1,18 @@
+<view class="detail_price">￥{{goodsObj.goods_price}}</view>
+
+<view class="detail_row">
+<view class="detail_name">{{goodsObj.goods_name}}</view>
+
+<view class="detail_collect" bindtap="handleCollect">
+<text class="iconfont {{isCollect?'icon-collection-b':'icon-shoucang'}}"></text>
+<view class="collect_text">收藏</view>
+</view>
+
+</view>
+
+<view class="detail_info">
+<view class="detail_info_title">图文详情</view>
+<view class="detail_info_content">
+<rich-text nodes="{{goodsObj.goods_introduce}}"> </rich-text>
+</view>
+</view>

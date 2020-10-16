@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "Control":"../../components/Control/Control"
+  },
+  "navigationBarTitleText": "收藏列表"
+}

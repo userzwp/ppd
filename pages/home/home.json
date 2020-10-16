@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "SearchInput":"../../components/homecs/SearchInput/SearchInput",
+    "Swipers":"../../components/homecs/Swiper/Swiper",
+    "Cates":"../../components/homecs/Cates/Cates",
+    "Floor":"../../components/homecs/Floor/Floor"
+  }
+}

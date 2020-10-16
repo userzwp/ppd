@@ -1,0 +1,40 @@
+
+.userinfo_wrap{
+height: 45vh;
+background-color:#ccc;
+overflow: hidden;
+position: relative;
+}
+.userinfo_wrap .userimg_wrap{
+ position: relative;
+}
+.userinfo_wrap .userbtn{
+position: absolute;
+left: 50%;
+top: 40%;
+transform: translateX(-50%);
+border: 1rpx solid greenyellow;
+font-size: 38rpx;
+padding: 30rpx 60rpx;
+border-radius: 10rpx;
+}
+ .userimg_wrap .user_bg{
+   height: 50vh;
+   filter: blur(12rpx);
+ }
+ .userimg_wrap .userinfo{
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translateX(-50%);
+  text-align: center;
+ }
+ .userinfo .usericon{
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 50%;
+ }
+ .userinfo .username{
+  color: #fff;
+  font-size: 30rpx;
+ }

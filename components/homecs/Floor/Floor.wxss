@@ -1,0 +1,34 @@
+
+
+  .floor_group .floor_title{
+    padding-bottom: 10rpx;
+    padding-top: 15rpx;
+  }
+  .floor_group .floor_title image{
+     width: 100%;
+  }
+  .floor_group .floor_list{
+    overflow: hidden;
+  }
+  .floor_group .floor_list navigator{
+   float: left;
+   width: 33.33%;
+  display: block;
+  }
+  .floor_group .floor_list navigator:nth-last-child(-n+4){
+    height: calc(33.33vw * 386 / 232 / 2);
+    border-left: 10rpx solid #fff;
+  }
+  .floor_group .floor_list navigator:nth-child(1){
+    height: calc(33.33vw * 386 / 232);
+  }
+  .floor_group .floor_list navigator:nth-child(2),
+  .floor_group .floor_list navigator:nth-child(3){
+  border-bottom: 10rpx solid #fff;
+  }
+  .floor_group .floor_list navigator image{
+   width: 100%;
+   height: 100%;
+  }
+  
+  

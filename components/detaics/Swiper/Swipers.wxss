@@ -1,0 +1,7 @@
+.detail_swiper swiper{
+  height: 47vh;
+  text-align: center;
+}
+.detail_swiper swiper image{
+  width: 70%;
+}

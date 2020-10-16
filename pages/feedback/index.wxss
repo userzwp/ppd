@@ -1,0 +1,55 @@
+page{
+  background-color: #eeeeee;
+}
+.feeb_main{
+padding: 20rpx;
+color: #666;
+}
+
+.feeb_main .feeb_tips{
+ display: flex;
+ flex-wrap: wrap;
+}
+.feeb_main .feeb_tips text{
+  width: 30%;
+  padding: 10rpx;
+  text-align: center;
+  background-color: #fff;
+  margin: 20rpx 10rpx;
+  font-size: 26rpx;
+}
+.feeb_content{
+  background-color: #fff;
+  margin-top: 20rpx;
+}
+.feeb_content textarea{
+ padding: 10rpx;
+}
+.feeb_content .feeb_tool{
+display: flex;
+padding-bottom: 20rpx;
+}
+.feeb_content .feeb_tool button{
+width: 90rpx;
+height: 90rpx;
+font-size: 44rpx;
+padding: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #ccc;
+margin: 0;
+margin-left: 20rpx;
+}
+.feeb_tool .upimg_item{
+  margin-left: 20rpx;
+  display: flex;
+  flex-wrap: wrap;
+}
+.feeb_main .feeb_btn{
+  margin-top: 20rpx;
+}
+.feeb_main .feeb_btn button{
+  width: 30%;
+  float: right;
+}

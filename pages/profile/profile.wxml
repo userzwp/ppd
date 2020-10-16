@@ -1,0 +1,63 @@
+
+<userImg userinfo="{{userinfo}}"></userImg>
+
+<view class="user_content">
+<view class="user_main">
+
+ <view class="history_wrap">
+ <navigator>
+ <view class="his_num">0</view>
+ <view class="his_name">收藏的店铺</view>
+ </navigator>
+
+ <navigator url="/pages/collect/collect">
+ <view class="his_num">{{collectNumber}}</view>
+ <view class="his_name">收藏的商品</view>
+  </navigator>
+
+
+
+  <navigator>
+ <view class="his_num">0</view>
+ <view class="his_name">关注的商品</view>
+ </navigator>
+  <navigator>
+ <view class="his_num">0</view>
+ <view class="his_name">我的足迹</view>
+ </navigator>
+ </view>
+<!--我的订单-->
+    <view class="orders_wrap">
+    <view class="orders_title">我的订单</view>
+    <view class="orders_content">
+    <navigator url="/pages/order/index?type=1" >
+    <view class="iconfont icon-dingdan "></view>
+    <view class="orders_name">全部订单</view>
+    </navigator>
+      <navigator url="/pages/order/index?type=2" >
+    <view class="iconfont icon-fukuan "></view>
+    <view class="orders_name">待付款</view>
+    </navigator>
+      <navigator url="/pages/order/index?type=3">
+    <view class="iconfont icon-daishouhuo "></view>
+    <view class="orders_name">待收货</view>
+    </navigator>
+      <navigator>
+    <view class="iconfont icon-tuikuan "></view>
+    <view class="orders_name">退款/退货</view>
+    </navigator>
+    </view>
+    </view>
+<!--收货地址-->
+      <view class="address-wrap">收货地址</view>
+      <view class="appinfo_wrap">
+      <view class="appinfo_item contact">
+      <text>联系客服</text>
+      <text>400-439-4000</text>
+      </view>
+      <navigator class="appinfo_item" url="/pages/feedback/index">意见反馈</navigator>
+      <view class="appinfo_item">关于我们</view>
+      </view>
+      <view class="recommend_wrap">把应用推荐给其他人</view>
+</view>
+</view>

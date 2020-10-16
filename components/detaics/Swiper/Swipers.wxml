@@ -1,0 +1,8 @@
+<view class="detail_swiper">
+<swiper autoplay circular indicator-dots >
+<swiper-item wx:for="{{goodsObj.pics}}" wx:key="pics_id" 
+bindtap="handleImg" data-url="{{item.pics_mid}}">
+<image src="{{item.pics_mid}}" mode="widthFix"></image>
+</swiper-item>
+</swiper>
+</view>

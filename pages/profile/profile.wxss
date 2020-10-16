@@ -1,0 +1,75 @@
+page{
+  background-color: #edece8;
+}
+.user_content{
+position: relative;
+}
+.user_content .user_main{
+position: absolute;
+width: 90%;
+left: 50%;
+transform: translateX(-50%);
+top: -40rpx;
+padding-bottom: 80rpx;
+}
+.user_main .history_wrap{
+  display: flex;
+  background-color: #fff;
+}
+.user_main .history_wrap navigator{
+  flex: 1;
+  text-align: center;
+  padding: 10rpx 0;
+}
+.history_wrap .his_num{
+  color: var(--themeColor);
+}
+.history_wrap .his_name{
+  font-size: 30rpx;
+}
+
+.orders_wrap{
+ background-color: white;
+ margin-top: 30rpx;
+}
+.orders_wrap .orders_title{
+  padding: 20rpx;
+  border-bottom: 1rpx solid #ccc;
+}
+.orders_wrap .orders_content{
+ display: flex;
+}
+.orders_content navigator{
+flex: 1;
+text-align: center;
+padding: 15rpx 0;
+}
+.orders_content .iconfont{
+color: var(--themeColor);
+}
+.orders_content .orders_name{
+font-size: 32rpx;
+}
+
+.address-wrap{
+background-color: white;
+margin-top: 30rpx;
+padding: 20rpx ;
+}
+.appinfo_wrap{
+ margin-top: 30rpx;
+ background-color: white;
+}
+.appinfo_wrap .contact{
+  display: flex;
+  justify-content: space-between;
+}
+.appinfo_wrap .appinfo_item{
+padding: 20rpx;
+border-bottom: 1rpx solid #ccc;
+}
+.recommend_wrap{
+  background-color: white;
+  margin-top: 30rpx;
+  padding: 20rpx;
+}

@@ -1,0 +1,146 @@
+{
+  "description": "项目配置文件",
+  "packOptions": {
+    "ignore": []
+  },
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "postcss": true,
+    "preloadBackgroundData": false,
+    "minified": true,
+    "newFeature": true,
+    "coverView": true,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "useIsolateContext": true,
+    "useCompilerModule": true,
+    "userConfirmedUseCompilerModuleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "useMultiFrameRuntime": false,
+    "useApiHook": true
+  },
+  "compileType": "miniprogram",
+  "libVersion": "2.11.1",
+  "appid": "wx56518e8e9624c4af",
+  "projectname": "ppd",
+  "debugOptions": {
+    "hidedInDevtools": []
+  },
+  "isGameTourist": false,
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "condition": {
+    "search": {
+      "current": -1,
+      "list": []
+    },
+    "conversation": {
+      "current": -1,
+      "list": []
+    },
+    "plugin": {
+      "current": -1,
+      "list": []
+    },
+    "game": {
+      "currentL": -1,
+      "list": []
+    },
+    "gamePlugin": {
+      "current": -1,
+      "list": []
+    },
+    "miniprogram": {
+      "current": -1,
+      "list": [
+        {
+          "id": -1,
+          "name": "分类页面",
+          "pathName": "pages/category/category",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": 1,
+          "name": "商品列表",
+          "pathName": "pages/goods_list/index",
+          "query": "cid=8",
+          "scene": null
+        },
+        {
+          "id": 2,
+          "name": "商品详情",
+          "pathName": "pages/goods_detail/index",
+          "query": "goods_id= 53941",
+          "scene": null
+        },
+        {
+          "id": 3,
+          "name": "购物车",
+          "pathName": "pages/cart/cart",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "支付页",
+          "pathName": "pages/pay/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "登录页",
+          "pathName": "pages/login/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "个人中心",
+          "pathName": "pages/profile/profile",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "订单查询",
+          "pathName": "pages/order/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "收藏页面",
+          "pathName": "pages/collect/collect",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "搜索页面",
+          "pathName": "pages/Search/Search",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "意见反馈",
+          "pathName": "pages/feedback/index",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

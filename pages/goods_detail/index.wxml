@@ -1,0 +1,34 @@
+<view class="detail">
+<DetailSwiper goodsObj="{{goodsObj}}"></DetailSwiper>
+<Details goodsObj="{{goodsObj}}" isCollect="{{isCollect}}" bindhandleCollect="collectChange"></Details>
+
+<view class="btm_tool">
+
+<view class="tool_item">
+<view class="iconfont icon-lianxikefu"></view>
+<view>联系客服</view>
+<button open-type="contact"></button>
+</view>
+
+<view class="tool_item">
+<view class="iconfont icon-tubiao- "></view>
+<view>分享</view>
+<button open-type="share"></button>
+</view>
+
+<navigator class="tool_item" url="/pages/cart/cart" open-type="switchTab">
+<view class="iconfont icon-gouwuche "></view>
+<view>购物车</view>
+</navigator>
+
+<view class="tool_item btn_cart" bindtap="handleCartAdd">
+ 加入购物车
+</view>
+
+<view class="tool_item btn_buy">
+ 立即购买
+</view>
+
+</view>
+
+</view>

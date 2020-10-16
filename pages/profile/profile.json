@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "userImg":"../../components/profilecs/userImg/index"
+  },
+  "navigationBarTitleText": "个人中心"
+}

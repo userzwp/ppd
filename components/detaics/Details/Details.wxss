@@ -1,0 +1,46 @@
+@import "../../../styles/iconfont.wxss";
+.detail_price{
+  padding: 15rpx;
+  font-size: 32rpx;
+  font-weight: 600;
+  color: var(--themeColor);
+  }
+  .detail_row{
+    display: flex;
+    padding-bottom:10rpx;
+    border-bottom: 15rpx solid rgba(0, 0, 0, .08);
+  }
+  .detail_row .detail_name{
+  flex: 4;
+  color: #000;
+  font-size: 30rpx;
+  padding: 0 18rpx;
+  text-align: left;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  }
+  .detail_row .detail_collect{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 10rpx;
+  border-left: 5rpx solid #ccc;
+  }
+  .detail_collect .icon-collection-b{
+    color: var(--themeColor);
+  }
+  .detail_info .detail_info_title{
+    font-size: 36rpx;
+    color: var(--themeColor);
+    font-weight: 800;
+    padding: 20rpx;
+    border-bottom: 15rpx solid rgba(0, 0, 0, .08);
+  }
+  .detail_info .detail_info_content{
+    margin-top: 10rpx;
+  }
+  

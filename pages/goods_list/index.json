@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "SearchInput":"../../components/homecs/SearchInput/SearchInput",
+    "Control":"../../components/Control/Control"
+  },
+  "navigationBarTitleText": "商品列表",
+  "enablePullDownRefresh":true,
+  "backgroundTextStyle":"dark"
+}

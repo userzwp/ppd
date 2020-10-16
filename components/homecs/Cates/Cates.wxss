@@ -1,0 +1,11 @@
+.home_cate{
+  display: flex;
+  padding: 20rpx;
+}
+.home_cate navigator{
+  flex: 1;
+  display: block;
+}
+.home_cate navigator image{
+ width: 100%;
+}

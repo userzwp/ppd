@@ -1,0 +1,7 @@
+<view class="home">
+<SearchInput></SearchInput>
+<Swipers swiperList="{{swiperList}}"></Swipers>
+<Cates catesList="{{catesList}}"></Cates>
+<Floor floorList="{{floorList}}"></Floor>
+</view>
+

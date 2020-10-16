@@ -1,0 +1,56 @@
+.collectControl{
+  font-size: 32rpx;
+}
+page{
+  background-color: white;
+}
+/* .collect_main{
+
+} */
+.collect_main .collect_title{
+padding: 30rpx 0;
+}
+.collect_title .collect_tips{
+padding: 15rpx;
+border: 1rpx solid #ccc;
+margin-left: 25rpx;
+}
+.collect_tips.active {
+color:var(--themeColor);
+border-color: currentColor;
+}
+.collect_main .collect_content{
+  background-color: white;
+}
+
+.goods_item{
+  margin-top: 15rpx;
+  display: flex;
+border-bottom: 3rpx solid #ccc;
+
+}
+.goods_item .goods_img{
+flex: 2;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.goods_item .goods_img image{
+width: 100%;
+}
+.goods_item .goods_info{
+flex: 3;
+display: flex;
+justify-content: space-around;
+flex-direction: column;
+}
+.goods_info .goods_name{
+display: -webkit-box;
+overflow: hidden;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 2;
+}
+.goods_info .goods_price{
+color: var(--themeColor);
+font-size: 32rpx;
+}

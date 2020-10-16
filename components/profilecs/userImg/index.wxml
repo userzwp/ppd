@@ -1,0 +1,16 @@
+
+<view class="userinfo_wrap">
+
+<view class="userimg_wrap" wx:if="{{userinfo.avatarUrl}}">
+<image class="user_bg" src="{{userinfo.avatarUrl}}"></image>
+<view class="userinfo">
+<image class="usericon" src="{{userinfo.avatarUrl}}"></image>
+<view class="username">{{userinfo.nickName}}</view>
+</view>
+</view>
+
+<view class="userbtn" wx:else>
+<navigator url="/pages/login/index">登录</navigator>
+</view>
+
+</view>
